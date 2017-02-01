@@ -1,3 +1,7 @@
+atlassian:
+  url: https://developer.atlassian.com/blog/
+  spider: atlassian
+
 facebook:
   url: https://code.facebook.com/posts/rss/
   spider: rss

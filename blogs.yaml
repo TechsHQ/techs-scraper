@@ -1,14 +1,11 @@
 facebook:
-  name: Facebook Code
   url: https://code.facebook.com/posts/rss/
   spider: rss
 
 heroku:
-  name: Heroku
   url: https://engineering.heroku.com/feed.xml
   spider: rss
 
 netflix:
-  name: The Netflix Tech Blog
   url: http://techblog.netflix.com/rss.xml
   spider: rss

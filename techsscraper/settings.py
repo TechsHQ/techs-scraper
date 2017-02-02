@@ -2,6 +2,8 @@
 
 BOT_NAME = 'techsscraper'
 
+MONGO_DATABASE = 'blogs'
+
 SPIDER_MODULES = ['techsscraper.spiders']
 NEWSPIDER_MODULE = 'techsscraper.spiders'
 
@@ -55,9 +57,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'techsscraper.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'techsscraper.pipelines.MongoDBPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

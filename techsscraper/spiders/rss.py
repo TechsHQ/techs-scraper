@@ -1,7 +1,7 @@
 import scrapy
 from scrapy.http import Request
+from scrapy.loader import ItemLoader
 
-from util import clean
 from items import BlogItem
 
 
@@ -11,6 +11,7 @@ class RSSSpider(scrapy.Spider):
 
     def __init__(self, **kw):
         super(RSSSpider, self).__init__(**kw)
+        self.blog_name = kw.get('blog_name')
         url = kw.get('url')
         if not url.startswith('http://') and not url.startswith('https://'):
             url = 'http://%s/' % url
@@ -22,8 +23,9 @@ class RSSSpider(scrapy.Spider):
     def parse(self, response):
         self.logger.info('A response from %s just arrived!', response.url)
         for item in response.xpath('//item'):
-            yield BlogItem(
-                title=clean(item.xpath('title/text()').extract_first()),
-                url=clean(item.xpath('link/text()').extract_first()),
-                pub_date=clean(item.xpath('pubDate/text()').extract_first() or item.xpath('pubdate/text()').extract_first()),
-            )
+            il = ItemLoader(item=BlogItem(), response=response, selector=item)
+            il.add_xpath('title', 'title/text()')
+            il.add_xpath('url', 'link/text()')
+            il.add_xpath('pub_date', 'pubDate/text()')
+            il.add_xpath('pub_date', 'pubdate/text()')
+            yield il.load_item()

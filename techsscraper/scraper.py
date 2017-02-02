@@ -10,6 +10,6 @@ def scrape_all_blogs():
     process = CrawlerProcess(get_project_settings())
 
     for blog in blogs:
-        process.crawl(blogs[blog]['spider'], url=blogs[blog]['url'])
+        process.crawl(blogs[blog]['spider'], **blogs[blog], blog_name=blog)
 
     process.start()

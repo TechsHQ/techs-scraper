@@ -1,8 +1,10 @@
 import scrapy
 from scrapy.http import Request
+from scrapy.loader import ItemLoader
+from scrapy.loader.processors import TakeFirst
+
 from urllib.parse import urlparse
 
-from util import clean
 from items import BlogItem
 
 
@@ -12,6 +14,7 @@ class AtlassianSpider(scrapy.Spider):
 
     def __init__(self, **kw):
         super(AtlassianSpider, self).__init__(**kw)
+        self.blog_name = kw.get('blog_name')
         url = kw.get('url')
         if not url.startswith('http://') and not url.startswith('https://'):
             url = 'http://%s' % url
@@ -25,8 +28,8 @@ class AtlassianSpider(scrapy.Spider):
         for item in response.xpath("//div[contains(@class, 'blog-archive')]"
                                    "/div[not(contains(@class, 'pager'))]"
                                    "/div[contains(@class, 'aui-page-header')]"):
-            yield BlogItem(
-                title=clean(item.xpath('div/div/h2/a/text()').extract_first()),
-                url=clean(self.domain + item.xpath('div/div/h2/a/@href').extract_first()),
-                pub_date=clean(item.xpath('div/div/p/text()').extract_first())
-            )
+            il = ItemLoader(item=BlogItem(), response=response, selector=item)
+            il.add_xpath('title', 'div/div/h2/a/text()')
+            il.add_xpath('url', 'div/div/h2/a/@href')
+            il.add_xpath('pub_date', 'div/div/p/text()', TakeFirst())
+            yield il.load_item()

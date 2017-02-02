@@ -5,7 +5,7 @@ from scrapy.utils.project import get_project_settings
 
 
 def scrape_all_blogs():
-    blogs = yaml.load(open('../blogs.yaml', 'r'))
+    blogs = yaml.load(open('blogs.yaml', 'r'))
 
     process = CrawlerProcess(get_project_settings())
 

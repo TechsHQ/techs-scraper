@@ -9,7 +9,7 @@ NEWSPIDER_MODULE = 'techsscraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'techsscraper (+http://www.yourdomain.com)'
+USER_AGENT = 'techs-scraper (+https://github.com/techsHQ/techs-scraper)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True

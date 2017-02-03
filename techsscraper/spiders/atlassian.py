@@ -31,6 +31,7 @@ class AtlassianSpider(scrapy.Spider):
             il = ItemLoader(item=BlogItem(), response=response, selector=item)
             il.add_value('publisher', self.blog_name)
             il.add_xpath('title', 'div/div/h2/a/text()')
+            il.add_value('url', self.domain)
             il.add_xpath('url', 'div/div/h2/a/@href')
             il.add_xpath('pub_date', 'div/div/p/text()', TakeFirst())
             yield il.load_item()

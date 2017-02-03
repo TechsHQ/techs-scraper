@@ -28,5 +28,5 @@ class MongoDBPipeline(object):
 
     def process_item(self, item, spider):
         hash = hashlib.sha1(item['url'].encode('UTF-8')).hexdigest()
-        self.db[spider.blog_name].update_one({'_id': hash}, {'$set': dict(item)}, upsert=True)
+        self.db['techs'].update_one({'_id': hash}, {'$set': dict(item)}, upsert=True)
         return item

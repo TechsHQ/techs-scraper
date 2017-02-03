@@ -24,8 +24,8 @@ class RSSSpider(scrapy.Spider):
         self.logger.info('A response from %s just arrived!', response.url)
         for item in response.xpath('//item'):
             il = ItemLoader(item=BlogItem(), response=response, selector=item)
+            il.add_value('publisher', self.blog_name)
             il.add_xpath('title', 'title/text()')
             il.add_xpath('url', 'link/text()')
             il.add_xpath('pub_date', 'pubDate/text()')
-            il.add_xpath('pub_date', 'pubdate/text()')
             yield il.load_item()

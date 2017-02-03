@@ -29,6 +29,7 @@ class AtlassianSpider(scrapy.Spider):
                                    "/div[not(contains(@class, 'pager'))]"
                                    "/div[contains(@class, 'aui-page-header')]"):
             il = ItemLoader(item=BlogItem(), response=response, selector=item)
+            il.add_value('publisher', self.blog_name)
             il.add_xpath('title', 'div/div/h2/a/text()')
             il.add_xpath('url', 'div/div/h2/a/@href')
             il.add_xpath('pub_date', 'div/div/p/text()', TakeFirst())

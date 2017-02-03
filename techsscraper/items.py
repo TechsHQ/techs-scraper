@@ -7,7 +7,7 @@ from util import *
 from scrapy.loader.processors import Join, MapCompose, TakeFirst
 
 def parse_date(t):
-    return str(parser.parse(t).astimezone(pytz.timezone('UTC')))
+    return parser.parse(t).astimezone(pytz.timezone('UTC'))
 
 class BlogItem(scrapy.Item):
     _id = scrapy.Field()

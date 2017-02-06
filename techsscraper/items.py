@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import scrapy
-import pytz
-from dateutil import parser
-from util import *
 from scrapy.loader.processors import Join, MapCompose, TakeFirst
 
-def parse_date(t):
-    return parser.parse(t).astimezone(pytz.timezone('UTC'))
+from processors import *
+
 
 class BlogItem(scrapy.Item):
     _id = scrapy.Field()

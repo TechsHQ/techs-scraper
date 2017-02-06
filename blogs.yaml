@@ -1,15 +1,2759 @@
+500px:
+  display_name: 500px
+  url: https://developers.500px.com/feed
+  spider: rss
+
+8thlight:
+  display_name: 8th Light
+  url: https://8thlight.com/blog/feed/atom.xml
+  spider: rss
+
+99designs:
+  display_name: 99designs
+  url: https://99designs.com/tech-blog/feed.xml
+  spider: rss
+
+airbrake:
+  display_name: Airbrake
+  url: https://airbrake.io/blog/feed
+  spider: rss
+
+advancedwebmachinery:
+  display_name: Advanced Web Machinery
+  url: https://advancedweb.hu/atom.xml
+  spider: rss
+
+adzerk:
+  display_name: Adzerk
+  url: http://adzerk.com/tech/feed.xml
+  spider: rss
+
+airbnb:
+  display_name: Airbnb
+  url: http://nerds.airbnb.com/feed/
+  spider: rss
+
+airpair:
+  display_name: AirPair
+  url: https://www.airpair.com/rss
+  spider: rss
+
+algolia:
+  display_name: Algolia
+  url: https://blog.algolia.com/feed/
+  spider: rss
+
+allegro.tech:
+  display_name: Allegro.tech
+  url: http://allegro.tech/feed.xml
+  spider: rss
+
+alphasights:
+  display_name: AlphaSights
+  url: http://engineering-blog.alphasights.com/rss
+  spider: rss
+
+appnexus:
+  display_name: Appnexus
+  url: http://techblog.appnexus.com/atom.xml
+  spider: rss
+
+arkency:
+  display_name: Arkency
+  url: http://feeds.feedburner.com/arkency.xml
+  spider: rss
+
+artsy:
+  display_name: Artsy
+  url: http://artsy.github.io/feed
+  spider: rss
+
+asana:
+  display_name: Asana
+  url: https://blog.asana.com/feed/
+  spider: rss
+
+asos:
+  display_name: Asos
+  url: http://techblog.asos.com/feeds/posts/default
+  spider: rss
+
 atlassian:
-  url: https://developer.atlassian.com/blog/
-  spider: atlassian
+  display_name: Atlassian
+  url: https://developer.atlassian.com/blog/feed.xml
+  spider: rss
+
+atomicobject:
+  display_name: Atomic Object
+  url: https://spin.atomicobject.com/feed/
+  spider: rss
+
+auth0:
+  display_name: Auth0
+  url: https://auth0.com/blog/rss.xml
+  spider: rss
+
+autodesk:
+  display_name: Autodesk
+  url: http://cloudengineering.autodesk.com/blog/atom.xml
+  spider: rss
+
+avenuecode:
+  display_name: Avenue Code
+  url: http://blog.avenuecode.com/rss/
+  spider: rss
+
+aws:
+  display_name: AWS
+  url: https://aws.amazon.com/blogs/aws/feed/
+  spider: rss
+
+azavea:
+  display_name: Azavea
+  url: https://www.azavea.com/feed/
+  spider: rss
+
+backtrace:
+  display_name: Backtrace
+  url: https://backtrace.io/feed/
+  spider: rss
+
+badoo:
+  display_name: Badoo
+  url: https://techblog.badoo.com/feed.xml
+  spider: rss
+
+baiduresearch:
+  display_name: Baidu Research
+  url: http://research.baidu.com/feed/
+  spider: rss
+
+bandcamp:
+  display_name: Bandcamp
+  url: https://bandcamptech.wordpress.com/feed/
+  spider: rss
+
+baselab:
+  display_name: Base Lab
+  url: https://lab.getbase.com/feed/
+  spider: rss
+
+bazaarvoice:
+  display_name: Bazaarvoice
+  url: https://blog.developer.bazaarvoice.com/feed/
+  spider: rss
+
+benchling:
+  display_name: Benchling
+  url: http://benchling.engineering/rss/
+  spider: rss
+
+benefitfocus:
+  display_name: BenefitFocus
+  url: https://www.benefitfocus.com/rss.xml
+  spider: rss
+
+bigcommerce:
+  display_name: Bigcommerce
+  url: http://www.bigeng.io/rss/
+  spider: rss
+
+binarystudio:
+  display_name: Binary Studio
+  url: http://binary-studio.com/feed/
+  spider: rss
+
+bitly:
+  display_name: Bitly
+  url: http://word.bitly.com/rss
+  spider: rss
+
+bittorrent:
+  display_name: BitTorrent
+  url: http://engineering.bittorrent.com/feed/
+  spider: rss
+
+blablacar:
+  display_name: BlaBlaCar
+  url: http://blablatech.com/atom.xml
+  spider: rss
+
+blackrock:
+  display_name: BlackRock
+  url: http://rockthecode.io/feed/
+  spider: rss
+
+blogfoster:
+  display_name: Blogfoster
+  url: http://engineering.blogfoster.com/rss/
+  spider: rss
+
+bloomreach:
+  display_name: BloomReach
+  url: http://engineering.bloomreach.com/feed/
+  spider: rss
+
+booking.com:
+  display_name: Booking.com
+  url: https://blog.booking.com/atom.xml
+  spider: rss
+
+box:
+  display_name: Box
+  url: https://www.box.com/blog/feed
+  spider: rss
+
+boxever:
+  display_name: Boxever
+  url: http://www.boxever.com/feed/
+  spider: rss
+
+brandwatch:
+  display_name: Brandwatch
+  url: http://engineering.brandwatch.com/rss/
+  spider: rss
+
+canva:
+  display_name: Canva
+  url: https://engineering.canva.com/feed.xml
+  spider: rss
+
+capgemini:
+  display_name: Capgemini
+  url: http://capgemini.github.io/feed.xml
+  spider: rss
+
+centurylink:
+  display_name: CenturyLink
+  url: https://www.ctl.io/developers/blog/rss
+  spider: rss
+
+cerner:
+  display_name: Cerner
+  url: http://engineering.cerner.com/atom.xml
+  spider: rss
+
+chaps:
+  display_name: Chaps
+  url: https://blog.chaps.io/feed.xml
+  spider: rss
+
+chartbeat:
+  display_name: Chartbeat
+  url: http://engineering.chartbeat.com/feed/
+  spider: rss
+
+chef:
+  display_name: Chef
+  url: https://blog.chef.io/feed/
+  spider: rss
+
+clever:
+  display_name: Clever
+  url: https://engineering.clever.com/rss
+  spider: rss
+
+clevertap:
+  display_name: CleverTap
+  url: https://blog.clevertap.com/feed/
+  spider: rss
+
+cloudera:
+  display_name: Cloudera
+  url: https://blog.cloudera.com/feed/
+  spider: rss
+
+cloudflare:
+  display_name: Cloudflare
+  url: https://blog.cloudflare.com/rss/
+  spider: rss
+
+clusterhq:
+  display_name: ClusterHQ
+  url: https://clusterhq.com/feed.xml
+  spider: rss
+
+cockroachdb:
+  display_name: CockroachDB
+  url: https://www.cockroachlabs.com/blog/feed/
+  spider: rss
+
+codelitt:
+  display_name: Codelitt
+  url: https://www.codelitt.com/blog/rss
+  spider: rss
+
+codemancers:
+  display_name: Codemancers
+  url: http://crypt.codemancers.com/feed.xml
+  spider: rss
+
+codementor:
+  display_name: Codementor
+  url: https://www.codementor.io/tutorial/feed
+  spider: rss
+
+codenameone:
+  display_name: CodeName One
+  url: http://www.codenameone.com/feed.xml
+  spider: rss
+
+codeship:
+  display_name: Codeship
+  url: https://blog.codeship.com/feed/
+  spider: rss
+
+collectiveidea:
+  display_name: Collective Idea
+  url: http://collectiveidea.com/blog/feed/
+  spider: rss
+
+commercetools:
+  display_name: Commercetools
+  url: https://techblog.commercetools.com/feed
+  spider: rss
+
+confluent:
+  display_name: Confluent
+  url: https://www.confluent.io/feed/
+  spider: rss
+
+convox:
+  display_name: Convox
+  url: https://convox.com/blog/rss.xml
+  spider: rss
+
+coolblue:
+  display_name: Coolblue
+  url: http://devblog.coolblue.nl/feed/
+  spider: rss
+
+criteo:
+  display_name: Criteo
+  url: http://engineering.criteolabs.com/feeds/posts/default
+  spider: rss
+
+crowdfire:
+  display_name: Crowdfire
+  url: https://crowdfire.engineering/feed
+  spider: rss
+
+dailymotion:
+  display_name: Dailymotion
+  url: http://engineering.dailymotion.com/rss/
+  spider: rss
+
+dataartisans:
+  display_name: Data Artisans
+  url: http://data-artisans.com/feed/
+  spider: rss
+
+databricks:
+  display_name: Databricks
+  url: https://databricks.com/feed
+  spider: rss
+
+datafox:
+  display_name: DataFox
+  url: http://eng.datafox.co/feed.xml
+  spider: rss
+
+datarank:
+  display_name: DataRank
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://engineering.datarank.com.atom/
+  spider: rss
+
+deferpanic:
+  display_name: DeferPanic
+  url: https://deferpanic.com/blog/index.xml
+  spider: rss
+
+deis:
+  display_name: Deis
+  url: https://deis.com/sitemap.xml
+  spider: rss
+
+deliveroo:
+  display_name: Deliveroo
+  url: http://deliveroo.engineering/feed.xml
+  spider: rss
+
+digitalocean:
+  display_name: DigitalOcean
+  url: https://www.digitalocean.com/community/tutorials/feed
+  spider: rss
+
+discord:
+  display_name: Discord
+  url: https://blog.discordapp.com/feed
+  spider: rss
+
+docker:
+  display_name: Docker
+  url: https://blog.docker.com/feed/
+  spider: rss
+
+dropbox:
+  display_name: Dropbox
+  url: https://blogs.dropbox.com/tech/feed/
+  spider: rss
+
+ebay:
+  display_name: Ebay
+  url: http://www.ebaytechblog.com/feed/
+  spider: rss
+
+efounders:
+  display_name: eFounders
+  url: https://medium.com/feed/unexpected-token
+  spider: rss
+
+eharmony:
+  display_name: Eharmony
+  url: http://www.eharmony.com/engineering/feed/
+  spider: rss
+
+elastic:
+  display_name: Elastic
+  url: https://www.elastic.co/blog/feed
+  spider: rss
+
+engineyard:
+  display_name: Engine Yard
+  url: https://blog.engineyard.com/feed.xml
+  spider: rss
+
+envato:
+  display_name: Envato
+  url: https://webuild.envato.com/atom.xml
+  spider: rss
+
+erlangsolutions:
+  display_name: Erlang Solutions
+  url: https://www.erlang-solutions.com/news.rss
+  spider: rss
+
+etsy:
+  display_name: Etsy
+  url: https://codeascraft.com/feed/
+  spider: rss
+
+eventbrite:
+  display_name: Eventbrite
+  url: https://www.eventbrite.com/engineering/feed/
+  spider: rss
+
+evernote:
+  display_name: Evernote
+  url: https://blog.evernote.com/feed/
+  spider: rss
+
+evilmartians:
+  display_name: Evil Martians
+  url: https://evilmartians.com/chronicles.atom
+  spider: rss
+
+expedia:
+  display_name: Expedia
+  url: https://techblog.expedia.com/feed/
+  spider: rss
 
 facebook:
-  url: https://code.facebook.com/posts/rss/
+  display_name: Facebook
+  url: https://code.facebook.com/posts/rss
+  spider: rss
+
+facebookairesearch:
+  display_name: Facebook AI Research
+  url: https://research.fb.com/feed/
+  spider: rss
+
+faraday:
+  display_name: Faraday
+  url: http://blog.faraday.io/rss/
+  spider: rss
+
+fiftythree:
+  display_name: Fiftythree
+  url: http://making.fiftythree.com/feed.xml
+  spider: rss
+
+findmypast:
+  display_name: Findmypast
+  url: http://tech.findmypast.com/feed.xml
+  spider: rss
+
+finn.no:
+  display_name: Finn.no
+  url: http://tech.finn.no/atom.xml
+  spider: rss
+
+firmafon:
+  display_name: Firmafon
+  url: https://dev.firmafon.dk/blog/feed.xml
+  spider: rss
+
+flickr:
+  display_name: Flickr
+  url: https://code.flickr.net/feed/
+  spider: rss
+
+flipboard:
+  display_name: Flipboard
+  url: http://engineering.flipboard.com/feed.xml
+  spider: rss
+
+flipkart:
+  display_name: Flipkart
+  url: http://tech-blog.flipkart.net/feed/
+  spider: rss
+
+foursquare:
+  display_name: Foursquare
+  url: http://engineering.foursquare.com/feed/
+  spider: rss
+
+fundingcircle:
+  display_name: Funding Circle
+  url: https://engineering.fundingcircle.com/feed.xml
+  spider: rss
+
+futureprocessing:
+  display_name: Future Processing
+  url: https://www.future-processing.pl/blog/feed/?post_type=post
+  spider: rss
+
+galois:
+  display_name: Galois
+  url: https://galois.com/feed/
+  spider: rss
+
+gamechanger:
+  display_name: GameChanger
+  url: http://tech.gc.com/atom.xml
+  spider: rss
+
+gilt:
+  display_name: Gilt
+  url: http://tech.gilt.com/atom.xml
+  spider: rss
+
+github:
+  display_name: GitHub
+  url: http://githubengineering.com/atom.xml
+  spider: rss
+
+githubold:
+  display_name: GitHub Old
+  url: https://github.com/blog.atom
+  spider: rss
+
+gnip:
+  display_name: Gnip
+  url: https://engineering.gnip.com/feed/
+  spider: rss
+
+gocardless:
+  display_name: GoCardless
+  url: https://gocardless.com/blog/atom.xml
+  spider: rss
+
+goodeggs:
+  display_name: Good Eggs
+  url: https://team.goodeggs.com/feed
+  spider: rss
+
+googleonlinesecurity:
+  display_name: Google Online Security
+  url: https://security.googleblog.com/feeds/posts/default
+  spider: rss
+
+googleresearch:
+  display_name: Google Research
+  url: https://research.googleblog.com/feeds/posts/default
+  spider: rss
+
+gosquared:
+  display_name: GoSquared
+  url: https://engineering.gosquared.com/feed
+  spider: rss
+
+grammarly:
+  display_name: Grammarly
+  url: http://tech.grammarly.com/blog/rss.xml
+  spider: rss
+
+grofers:
+  display_name: Grofers
+  url: https://lambda.grofers.com/rss/
+  spider: rss
+
+grouper:
+  display_name: Grouper
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://eng.joingrouper.com.atom/
+  spider: rss
+
+groupon:
+  display_name: Groupon
+  url: https://engineering.groupon.com/feed/
+  spider: rss
+
+guardian:
+  display_name: Guardian
+  url: https://www.theguardian.com/info/developer-blog/rss
+  spider: rss
+
+gusto:
+  display_name: Gusto
+  url: http://engineering.gusto.com/rss/
+  spider: rss
+
+hackerearth:
+  display_name: HackerEarth
+  url: http://engineering.hackerearth.com/rss
+  spider: rss
+
+harry's:
+  display_name: Harry's
+  url: http://engineering.harrys.com/feed.xml
+  spider: rss
+
+hashrocket:
+  display_name: Hashrocket
+  url: http://feeds.feedburner.com/hashrocket-blog
+  spider: rss
+
+haus:
+  display_name: Haus
+  url: https://engineering.haus.com/feed
   spider: rss
 
 heroku:
-  url: https://engineering.heroku.com/feed.xml
+  display_name: Heroku
+  url: http://engineering.heroku.com/feed.xml
+  spider: rss
+
+hireart:
+  display_name: HireArt
+  url: http://code.hireart.com/feed.xml
+  spider: rss
+
+holidayextras:
+  display_name: Holiday Extras
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://hungrygeek.holidayextras.co.uk.atom/
+  spider: rss
+
+homeaway:
+  display_name: HomeAway
+  url: https://tech.homeaway.com/feed.xml
+  spider: rss
+
+honeybadger:
+  display_name: Honeybadger
+  url: http://blog.honeybadger.io/feed.xml
+  spider: rss
+
+hootsuite:
+  display_name: Hootsuite
+  url: http://code.hootsuite.com/rss
+  spider: rss
+
+hoteltonight:
+  display_name: Hoteltonight
+  url: http://engineering.hoteltonight.com/feed.xml
+  spider: rss
+
+housing.com:
+  display_name: Housing.com
+  url: https://medium.com/feed/engineering-housing
+  spider: rss
+
+hubspot:
+  display_name: HubSpot
+  url: http://product.hubspot.com/blog/rss.xml
+  spider: rss
+
+huddle:
+  display_name: Huddle
+  url: http://tldr.huddle.com/atom.xml
+  spider: rss
+
+ibmdeveloperworks:
+  display_name: IBM developerWorks
+  url: https://developer.ibm.com/dwblog/feed/
+  spider: rss
+
+ifttt:
+  display_name: IFTTT
+  url: http://engineering.ifttt.com/feed.xml
+  spider: rss
+
+imvu:
+  display_name: IMVU
+  url: https://engineering.imvu.com/feed/
+  spider: rss
+
+imaginea:
+  display_name: Imaginea
+  url: https://blog.imaginea.com/feed/
+  spider: rss
+
+imgur:
+  display_name: Imgur
+  url: http://blog.imgur.com/feed/
+  spider: rss
+
+inaka:
+  display_name: Inaka
+  url: http://inaka.net/feed.dev.xml
+  spider: rss
+
+indeed:
+  display_name: Indeed
+  url: http://engineering.indeedblog.com/feed/
+  spider: rss
+
+instacart:
+  display_name: Instacart
+  url: https://tech.instacart.com/feed/
+  spider: rss
+
+instagram:
+  display_name: Instagram
+  url: https://engineering.instagram.com/feed
+  spider: rss
+
+intel:
+  display_name: Intel
+  url: https://software.intel.com/en-us/blogs/feed
+  spider: rss
+
+intenthq:
+  display_name: Intent HQ
+  url: http://engineering.intenthq.com/feed.xml
+  spider: rss
+
+intentmedia:
+  display_name: Intent Media
+  url: https://intentmedia.com/feed/
+  spider: rss
+
+intercom:
+  display_name: Intercom
+  url: https://engineering.intercom.io/feed.xml
+  spider: rss
+
+invision:
+  display_name: InVision
+  url: http://engineering.invisionapp.com/index.xml
+  spider: rss
+
+janestreet:
+  display_name: Jane Street
+  url: https://blogs.janestreet.com/category/ocaml/feed/
+  spider: rss
+
+jollygoodcode:
+  display_name: Jolly Good Code
+  url: https://jollygoodcode.github.io/atom.xml
+  spider: rss
+
+justeat:
+  display_name: Just Eat
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://tech.just-eat.com.atom/
+  spider: rss
+
+jettechnology:
+  display_name: Jet Technology
+  url: https://feeds.feedburner.com/jettech
+  spider: rss
+
+khanacademy:
+  display_name: Khan Academy
+  url: http://engineering.khanacademy.org/rss.xml
+  spider: rss
+
+kickstarter:
+  display_name: Kickstarter
+  url: https://kickstarter.engineering/feed
+  spider: rss
+
+king:
+  display_name: King
+  url: https://techblog.king.com/feed/
+  spider: rss
+
+kinvolk:
+  display_name: Kinvolk
+  url: https://kinvolk.io/blog/index.xml
+  spider: rss
+
+kogan.com:
+  display_name: Kogan.com
+  url: https://devblog.kogan.com/blog?format=RSS
+  spider: rss
+
+laterooms:
+  display_name: Laterooms
+  url: http://engineering.laterooms.com/rss/
+  spider: rss
+
+lendinghome:
+  display_name: LendingHome
+  url: https://tech.lendinghome.com/feed
+  spider: rss
+
+line:
+  display_name: LINE
+  url: http://developers.linecorp.com/blog/?feed=rss2
+  spider: rss
+
+linkedin:
+  display_name: LinkedIn
+  url: https://engineering.linkedin.com/blog.rss
+  spider: rss
+
+linode:
+  display_name: Linode
+  url: https://engineering.linode.com/feed.xml
+  spider: rss
+
+livechat:
+  display_name: LiveChat
+  url: https://developers.livechatinc.com/blog/rss
+  spider: rss
+
+liveramp:
+  display_name: LiveRamp
+  url: https://liveramp.com/engineering/feed/
+  spider: rss
+
+livingsocial:
+  display_name: LivingSocial
+  url: https://techblog.livingsocial.com/atom.xml
+  spider: rss
+
+localytics:
+  display_name: Localytics
+  url: http://eng.localytics.com/rss/
+  spider: rss
+
+lookout:
+  display_name: Lookout
+  url: http://hackers.lookout.com/atom.xml
+  spider: rss
+
+lyft:
+  display_name: Lyft
+  url: https://eng.lyft.com/feed
+  spider: rss
+
+machinalis:
+  display_name: Machinalis
+  url: http://www.machinalis.com/blog/feeds/rss/
+  spider: rss
+
+madetech:
+  display_name: Made Tech
+  url: http://www.madetech.com/feed
+  spider: rss
+
+mailchimp:
+  display_name: MailChimp
+  url: http://devs.mailchimp.com/blog/feed/
+  spider: rss
+
+mandrill:
+  display_name: Mandrill
+  url: http://blog.mandrill.com/feeds/all.atom.xml
+  spider: rss
+
+medallia:
+  display_name: Medallia
+  url: http://engineering.medallia.com/blog/feed/
+  spider: rss
+
+medium:
+  display_name: Medium
+  url: https://medium.engineering/feed
+  spider: rss
+
+memsql:
+  display_name: MemSQL
+  url: http://blog.memsql.com/feed/
+  spider: rss
+
+microsoftpythonengineering:
+  display_name: Microsoft Python Engineering
+  url: https://blogs.msdn.microsoft.com/pythonengineering/feed/
+  spider: rss
+
+mixmax:
+  display_name: Mixmax
+  url: https://mixmax.com/rss/
+  spider: rss
+
+mixpanel:
+  display_name: Mixpanel
+  url: https://code.mixpanel.com/feed/
+  spider: rss
+
+monetate:
+  display_name: Monetate
+  url: http://engineering.monetate.com/feed/
+  spider: rss
+
+moneybird:
+  display_name: MoneyBird
+  url: http://engineering.moneybird.com/atom.xml
+  spider: rss
+
+mongodb:
+  display_name: MongoDB
+  url: https://engineering.mongodb.com/post/index.xml
+  spider: rss
+
+monsanto:
+  display_name: Monsanto
+  url: http://engineering.monsanto.com/feed.xml
+  spider: rss
+
+moove-it:
+  display_name: Moove-it
+  url: https://blog.moove-it.com/rss
+  spider: rss
+
+mozillaautomationteam:
+  display_name: Mozilla Automation Team
+  url: https://planet.mozilla.org/ateam/atom.xml
+  spider: rss
+
+mozillahacks:
+  display_name: Mozilla Hacks
+  url: https://hacks.mozilla.org/feed/
+  spider: rss
+
+mozillareleaseengineering:
+  display_name: Mozilla Release Engineering
+  url: https://planet.mozilla.org/releng/atom.xml
+  spider: rss
+
+myntra:
+  display_name: Myntra
+  url: http://myntra.github.io/atom.xml
+  spider: rss
+
+myntradatascience:
+  display_name: Myntra Data Science
+  url: http://sartorialscience.myntrablogs.com/feeds/posts/default
   spider: rss
 
 netflix:
-  url: http://techblog.netflix.com/rss.xml
+  display_name: Netflix
+  url: http://techblog.netflix.com/feeds/posts/default
+  spider: rss
+
+newyorktimes:
+  display_name: New York Times
+  url: https://open.blogs.nytimes.com/feed/
+  spider: rss
+
+nextdoor:
+  display_name: Nextdoor
+  url: https://engblog.nextdoor.com/feed
+  spider: rss
+
+nordicapis:
+  display_name: Nordic APIs
+  url: http://nordicapis.com/feed/
+  spider: rss
+
+novoda:
+  display_name: Novoda
+  url: https://www.novoda.com/blog/rss/
+  spider: rss
+
+nprapps:
+  display_name: NPR Apps
+  url: http://blog.apps.npr.org/atom.xml
+  spider: rss
+
+octotechnology:
+  display_name: OCTO Technology
+  url: http://blog.octo.com/en/feed/
+  spider: rss
+
+okta:
+  display_name: Okta
+  url: http://developer.okta.com/feed.xml
+  spider: rss
+
+opendns:
+  display_name: OpenDNS
+  url: https://blog.opendns.com/feed/
+  spider: rss
+
+opentable:
+  display_name: OpenTable
+  url: http://tech.opentable.com/feed/
+  spider: rss
+
+opentableuk:
+  display_name: OpenTable UK
+  url: http://tech.opentable.co.uk/atom.xml
+  spider: rss
+
+oursky:
+  display_name: Oursky
+  url: https://code.oursky.com/feed/
+  spider: rss
+
+oyster:
+  display_name: Oyster
+  url: http://tech.oyster.com/atom.xml
+  spider: rss
+
+panoramaeducation:
+  display_name: Panorama Education
+  url: http://engineering.panoramaed.com/feed/
+  spider: rss
+
+parse:
+  display_name: Parse
+  url: http://blog.parse.com/feed/
+  spider: rss
+
+paypal:
+  display_name: Paypal
+  url: https://www.paypal-engineering.com/feed/
+  spider: rss
+
+periscope:
+  display_name: Periscope
+  url: https://www.periscopedata.com/blog/atom.xml
+  spider: rss
+
+periscopedata:
+  display_name: Periscope Data
+  url: https://www.periscopedata.com/blog/atom.xml
+  spider: rss
+
+pinterest:
+  display_name: Pinterest
+  url: https://engineering.pinterest.com/blog/rss
+  spider: rss
+
+pivotal:
+  display_name: Pivotal
+  url: http://feeds.feedburner.com/PivotalEngineeringJournal
+  spider: rss
+
+polyvore:
+  display_name: Polyvore
+  url: http://engblog.polyvore.com/feeds/posts/default
+  spider: rss
+
+postmark:
+  display_name: Postmark
+  url: https://postmarkapp.com/blog/feed.atom
+  spider: rss
+
+postmates:
+  display_name: Postmates
+  url: https://blog.postmates.com/feed
+  spider: rss
+
+prezi:
+  display_name: Prezi
+  url: https://engineering.prezi.com/feed
+  spider: rss
+
+prolificinteractive:
+  display_name: Prolific Interactive
+  url: http://blog.prolificinteractive.com/category/development/feed/
+  spider: rss
+
+pubnub:
+  display_name: PubNub
+  url: https://www.pubnub.com/blog/feed/
+  spider: rss
+
+pullreview:
+  display_name: PullReview
+  url: http://blog.8thcolor.com/feed.xml
+  spider: rss
+
+quora:
+  display_name: Quora
+  url: https://engineering.quora.com/rss
+  spider: rss
+
+raintank:
+  display_name: Raintank
+  url: https://blog.raintank.io/rss/
+  spider: rss
+
+raizlabs:
+  display_name: Raizlabs
+  url: https://www.raizlabs.com/dev/feed/
+  spider: rss
+
+rapidapi:
+  display_name: RapidAPI
+  url: http://blog.rapidapi.com/feed/
+  spider: rss
+
+reagroup:
+  display_name: REA Group
+  url: http://rea.tech/feed/
+  spider: rss
+
+realm.io:
+  display_name: Realm.io
+  url: https://feeds.feedburner.com/realmio
+  spider: rss
+
+redbubble:
+  display_name: Redbubble
+  url: http://artplustech.com/feed/
+  spider: rss
+
+redino:
+  display_name: Redino
+  url: http://redino.net/blog/feed/
+  spider: rss
+
+redhat:
+  display_name: Red Hat
+  url: http://developers.redhat.com/blog/feed/
+  spider: rss
+
+remind:
+  display_name: Remind
+  url: http://engineering.remind.com/feed.xml
+  spider: rss
+
+retailmenot:
+  display_name: RetailMeNot
+  url: https://medium.com/feed/retailmenot-engineering
+  spider: rss
+
+rightscale:
+  display_name: Rightscale
+  url: http://eng.rightscale.com/feed.xml
+  spider: rss
+
+riotgames:
+  display_name: Riot Games
+  url: https://engineering.riotgames.com/rss.xml
+  spider: rss
+
+risingstack:
+  display_name: RisingStack
+  url: http://blog.risingstack.com/rss/
+  spider: rss
+
+roberteldersoftware:
+  display_name: Robert Elder Software
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://blog.robertelder.org.atom/
+  spider: rss
+
+rosehosting:
+  display_name: RoseHosting
+  url: https://www.rosehosting.com/blog/feed/
+  spider: rss
+
+salesforce:
+  display_name: Salesforce
+  url: https://developer.salesforce.com/blogs/engineering/feed
+  spider: rss
+
+schibstedtechpolska:
+  display_name: Schibsted Tech Polska
+  url: http://www.schibsted.pl/blog/feed/
+  spider: rss
+
+scrunch:
+  display_name: Scrunch
+  url: https://tech.scrunch.com/blog/feeds/rss/
+  spider: rss
+
+secretescapes:
+  display_name: Secret Escapes
+  url: http://tech.secretescapes.com/feed/
+  spider: rss
+
+segment:
+  display_name: Segment
+  url: https://segment.com/blog/atom.xml
+  spider: rss
+
+semantics3:
+  display_name: Semantics3
+  url: https://engineering.semantics3.com/feed.xml
+  spider: rss
+
+semaphorecicommunity:
+  display_name: Semaphore CI Community
+  url: https://semaphoreci.com/community/tutorials.atom
+  spider: rss
+
+semaphoreciengineering:
+  display_name: Semaphore CI Engineering
+  url: http://semaphoreci.com/blog/engineering.xml
+  spider: rss
+
+sensible:
+  display_name: Sensible
+  url: http://blog.sensible.io/rss
+  spider: rss
+
+shapesecurity:
+  display_name: Shape Security
+  url: http://engineering.shapesecurity.com/atom.xml
+  spider: rss
+
+sharethis:
+  display_name: Sharethis
+  url: http://engineering.sharethis.com/rss/
+  spider: rss
+
+shopify:
+  display_name: Shopify
+  url: http://engineering.shopify.com/blogs/engineering.atom
+  spider: rss
+
+showmax:
+  display_name: ShowMax
+  url: https://tech.showmax.com/feed.xml
+  spider: rss
+
+siftscience:
+  display_name: Sift Science
+  url: http://blog.siftscience.com/feed/
+  spider: rss
+
+skybetting&gaming:
+  display_name: Sky Betting & Gaming
+  url: http://engineering.skybettingandgaming.com/feed.xml
+  spider: rss
+
+skyscanner:
+  display_name: Skyscanner
+  url: http://codevoyagers.com/feed/
+  spider: rss
+
+slack:
+  display_name: Slack
+  url: https://slack.engineering/feed
+  spider: rss
+
+slideshare:
+  display_name: SlideShare
+  url: https://engineering.linkedin.com/blog.rss
+  spider: rss
+
+smallimprovements:
+  display_name: Small Improvements
+  url: https://tech.small-improvements.com/feed/
+  spider: rss
+
+snapdeal:
+  display_name: Snapdeal
+  url: http://engineering.snapdeal.com/feed/
+  spider: rss
+
+socialcast:
+  display_name: Socialcast
+  url: http://blog.socialcast.com/feed/
+  spider: rss
+
+songkick:
+  display_name: Songkick
+  url: http://devblog.songkick.com/feed/
+  spider: rss
+
+soundcloud:
+  display_name: Soundcloud
+  url: https://developers.soundcloud.com/blog.rss
+  spider: rss
+
+speedledger:
+  display_name: Speedledger
+  url: http://engineering.speedledger.com/feed/
+  spider: rss
+
+spotify:
+  display_name: Spotify
+  url: https://labs.spotify.com/feed/
+  spider: rss
+
+sqreen:
+  display_name: Sqreen
+  url: https://blog.sqreen.io/feed/
+  spider: rss
+
+square:
+  display_name: Square
+  url: https://medium.com/feed/square-corner-blog
+  spider: rss
+
+squarespace:
+  display_name: Squarespace
+  url: https://engineering.squarespace.com/blog?format=RSS
+  spider: rss
+
+stackoverflow:
+  display_name: Stack Overflow
+  url: https://stackoverflow.blog/feed/
+  spider: rss
+
+stitchfix:
+  display_name: Stitch Fix
+  url: http://multithreaded.stitchfix.com/feed.xml
+  spider: rss
+
+stormpath:
+  display_name: Stormpath
+  url: https://stormpath.com/feed
+  spider: rss
+
+stridenyc:
+  display_name: Stride NYC
+  url: http://blog.stridenyc.com/rss.xml
+  spider: rss
+
+stripe:
+  display_name: Stripe
+  url: https://stripe.com/blog/feed.rss
+  spider: rss
+
+surveymonkey:
+  display_name: SurveyMonkey
+  url: https://engineering.surveymonkey.com/feed/
+  spider: rss
+
+takipi:
+  display_name: Takipi
+  url: http://blog.takipi.com/feed/
+  spider: rss
+
+target:
+  display_name: Target
+  url: https://target.github.io/feed.xml
+  spider: rss
+
+teamwork:
+  display_name: Teamwork
+  url: http://engineroom.teamwork.com/rss/
+  spider: rss
+
+teespring:
+  display_name: Teespring
+  url: http://teespring.engineering/index.xml
+  spider: rss
+
+thoughtbot:
+  display_name: Thoughtbot
+  url: https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots
+  spider: rss
+
+thoughtworks:
+  display_name: ThoughtWorks
+  url: https://www.thoughtworks.com/rss/insights.xml
+  spider: rss
+
+thumbtack:
+  display_name: Thumbtack
+  url: https://www.thumbtack.com/engineering/feed/
+  spider: rss
+
+ticketmaster:
+  display_name: Ticketmaster
+  url: https://tech.ticketmaster.com/feed/
+  spider: rss
+
+tilt:
+  display_name: Tilt
+  url: http://engineering.tilt.com/atom.xml
+  spider: rss
+
+toptal:
+  display_name: Toptal
+  url: https://www.toptal.com/blog.rss
+  spider: rss
+
+trackmaven:
+  display_name: TrackMaven
+  url: http://engineroom.trackmaven.com/feeds/rss.xml
+  spider: rss
+
+transferwise:
+  display_name: Transferwise
+  url: http://tech.transferwise.com/rss/
+  spider: rss
+
+trello:
+  display_name: Trello
+  url: https://tech.trello.com/feed.xml
+  spider: rss
+
+tripadvisor:
+  display_name: TripAdvisor
+  url: http://engineering.tripadvisor.com/rss
+  spider: rss
+
+truecar:
+  display_name: TrueCar
+  url: https://www.drivenbycode.com/feed/
+  spider: rss
+
+tumblr:
+  display_name: Tumblr
+  url: https://engineering.tumblr.com/rss
+  spider: rss
+
+twilio:
+  display_name: Twilio
+  url: https://www.twilio.com/engineering/feed/
+  spider: rss
+
+twitter:
+  display_name: Twitter
+  url: https://blog.twitter.com/api/blog.rss?name=engineering
+  spider: rss
+
+twitch:
+  display_name: Twitch
+  url: https://blog.twitch.tv/feed
+  spider: rss
+
+uber:
+  display_name: Uber
+  url: https://eng.uber.com/feed/
+  spider: rss
+
+upday:
+  display_name: Upday
+  url: https://upday.github.io/feed.xml
+  spider: rss
+
+venasolutions:
+  display_name: Vena Solutions
+  url: https://engineering.vena.io/rss/
+  spider: rss
+
+venmo:
+  display_name: Venmo
+  url: http://blog.venmo.com/hf2t3h4x98p5e13z82pl8j66ngcmry?format=RSS
+  spider: rss
+
+versioneye:
+  display_name: VersionEye
+  url: https://blog.versioneye.com/feed/
+  spider: rss
+
+vevo:
+  display_name: Vevo
+  url: http://blog.vevo.com/rss/
+  spider: rss
+
+viget:
+  display_name: Viget
+  url: http://feeds.feedburner.com/Viget
+  spider: rss
+
+vine:
+  display_name: Vine
+  url: http://engineering.vine.co/rss
+  spider: rss
+
+vinted:
+  display_name: Vinted
+  url: http://engineering.vinted.com//atom.xml
+  spider: rss
+
+vngrs:
+  display_name: VNGRS
+  url: http://blog.vngrs.com/rss.xml
+  spider: rss
+
+vts:
+  display_name: VTS
+  url: https://buildingvts.com/feed
+  spider: rss
+
+walmartlabs:
+  display_name: WalmartLabs
+  url: https://medium.com/feed/walmartlabs
+  spider: rss
+
+warbyparker:
+  display_name: Warby Parker
+  url: http://www.theoculists.com/feed/
+  spider: rss
+
+wattpad:
+  display_name: Wattpad
+  url: http://engineering.wattpad.com/rss
+  spider: rss
+
+wayfair:
+  display_name: Wayfair
+  url: http://engineering.wayfair.com/feed/
+  spider: rss
+
+wealthfront:
+  display_name: Wealthfront
+  url: http://eng.wealthfront.com/feed/
+  spider: rss
+
+wearewizards:
+  display_name: We Are Wizards
+  url: https://blog.wearewizards.io/all.atom.xml
+  spider: rss
+
+webengage:
+  display_name: WebEngage
+  url: https://engineering.webengage.com/feed/
+  spider: rss
+
+wimdu:
+  display_name: Wimdu
+  url: http://tech.wimdu.com/rss
+  spider: rss
+
+wingify:
+  display_name: Wingify
+  url: http://engineering.wingify.com/atom.xml
+  spider: rss
+
+wix:
+  display_name: Wix
+  url: http://blog.wix.engineering/feed/
+  spider: rss
+
+wolox:
+  display_name: Wolox
+  url: https://medium.com/feed/@WoloxEngineering
+  spider: rss
+
+wombatsecuritytechnologies:
+  display_name: Wombat Security Technologies
+  url: http://development.wombatsecurity.com/feed.xml
+  spider: rss
+
+wongatechnology:
+  display_name: Wonga Technology
+  url: http://wongatech.github.io/feed.xml
+  spider: rss
+
+wso2:
+  display_name: WSO2
+  url: http://wso2.com/node/37573/atom/feed
+  spider: rss
+
+xing:
+  display_name: XING
+  url: https://devblog.xing.com/feed/
+  spider: rss
+
+yahoo:
+  display_name: Yahoo
+  url: https://yahooeng.tumblr.com/rss
+  spider: rss
+
+yammer:
+  display_name: Yammer
+  url: https://medium.com/feed/yammer-engineering
+  spider: rss
+
+yelp:
+  display_name: Yelp
+  url: https://engineeringblog.yelp.com/feed.xml
+  spider: rss
+
+yld!:
+  display_name: YLD!
+  url: https://blog.yld.io/rss/
+  spider: rss
+
+zalando:
+  display_name: Zalando
+  url: https://tech.zalando.com/blog/rss-all.xml
+  spider: rss
+
+zeemee:
+  display_name: ZeeMee
+  url: https://zeemee.engineering/feed
+  spider: rss
+
+zendesk:
+  display_name: Zendesk
+  url: https://developer.zendesk.com/blog.xml
+  spider: rss
+
+zenefits:
+  display_name: Zenefits
+  url: https://engineering.zenefits.com/feed/
+  spider: rss
+
+zomato:
+  display_name: Zomato
+  url: https://engineering.zomato.com/feed
+  spider: rss
+
+zulily:
+  display_name: Zulily
+  url: https://engineering.zulily.com/feed/
+  spider: rss
+
+zumba:
+  display_name: Zumba
+  url: http://feeds.feedburner.com/zumba_engineering
+  spider: rss
+
+aaronpatterson:
+  display_name: Aaron Patterson
+  url: http://tenderlovemaking.com/atom.xml
+  spider: rss
+
+abhinababasu:
+  display_name: Abhinaba Basu
+  url: https://blogs.msdn.microsoft.com/abhinaba/feed/
+  spider: rss
+
+abuashrafmasnun:
+  display_name: Abu Ashraf Masnun
+  url: http://masnun.com/feed
+  spider: rss
+
+adambard:
+  display_name: Adam Bard
+  url: https://adambard.com/blog/feed.xml
+  spider: rss
+
+adamleventhal:
+  display_name: Adam Leventhal
+  url: http://dtrace.org/blogs/ahl/feed/
+  spider: rss
+
+adamtuliper:
+  display_name: Adam Tuliper
+  url: http://www.adamtuliper.com/feeds/posts/default
+  spider: rss
+
+addyosmani:
+  display_name: Addy Osmani
+  url: http://addyosmani.com/rss.xml
+  spider: rss
+
+adriancolyer:
+  display_name: Adrian Colyer
+  url: https://blog.acolyer.org/feed/
+  spider: rss
+
+alanstorm:
+  display_name: Alan Storm
+  url: http://alanstorm.com/feed/feed.xml
+  spider: rss
+
+alexrogozhnikov:
+  display_name: Alex Rogozhnikov
+  url: http://arogozhnikov.github.io/feed.xml
+  spider: rss
+
+alexrussell:
+  display_name: Alex Russell
+  url: https://infrequently.org/feed/
+  spider: rss
+
+allanmacgregor:
+  display_name: Allan MacGregor
+  url: http://coderoncode.com/feed.xml
+  spider: rss
+
+allisonkaptur:
+  display_name: Allison Kaptur
+  url: http://akaptur.com/atom.xml
+  spider: rss
+
+andersaarvik:
+  display_name: Anders Aarvik
+  url: http://aarvik.dk/rss/
+  spider: rss
+
+andrewbancroft:
+  display_name: Andrew Bancroft
+  url: https://www.andrewcbancroft.com/feed/
+  spider: rss
+
+andrewbrampton:
+  display_name: Andrew Brampton
+  url: https://blog.bramp.net/index.xml
+  spider: rss
+
+andrewray:
+  display_name: Andrew Ray
+  url: http://blog.andrewray.me/rss/
+  spider: rss
+
+andreyakinshin:
+  display_name: Andrey Akinshin
+  url: http://aakinshin.net/en/rss.xml
+  spider: rss
+
+antirez:
+  display_name: Antirez
+  url: http://antirez.com/rss
+  spider: rss
+
+ariejandevroom:
+  display_name: Ariejan de Vroom
+  url: http://feeds.feedburner.com/ariejan
+  spider: rss
+
+ariyahidayat:
+  display_name: Ariya Hidayat
+  url: https://ariya.io/index.xml
+  spider: rss
+
+arminronacher:
+  display_name: Armin Ronacher
+  url: http://lucumr.pocoo.org/feed.atom
+  spider: rss
+
+axelrauschmayer:
+  display_name: Axel Rauschmayer
+  url: http://www.2ality.com/feeds/posts/default
+  spider: rss
+
+badconcurrency:
+  display_name: Bad Concurrency
+  url: http://bad-concurrency.blogspot.com/feeds/posts/default
+  spider: rss
+
+barrywarsaw:
+  display_name: Barry Warsaw
+  url: https://www.wefearchange.org/feeds/all.atom.xml
+  spider: rss
+
+bartlomiejfilipek:
+  display_name: Bartlomiej Filipek
+  url: http://www.bfilipek.com/feeds/posts/default
+  spider: rss
+
+benmccormick:
+  display_name: Ben McCormick
+  url: http://benmccormick.org/rss
+  spider: rss
+
+billthelizard:
+  display_name: Bill the Lizard
+  url: http://www.billthelizard.com/feeds/posts/default
+  spider: rss
+
+blakeerickson:
+  display_name: Blake Erickson
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://blakeerickson.com.atom/
+  spider: rss
+
+blundell'sandroidtutorials:
+  display_name: Blundell's Android Tutorials
+  url: http://blog.blundellapps.co.uk/feed/
+  spider: rss
+
+brandonrhodes:
+  display_name: Brandon Rhodes
+  url: http://rhodesmill.org/brandon/feed
+  spider: rss
+
+brendaneich:
+  display_name: Brendan Eich
+  url: https://brendaneich.com/feed/
+  spider: rss
+
+brendangregg:
+  display_name: Brendan Gregg
+  url: http://www.brendangregg.com/blog/rss.xml
+  spider: rss
+
+brujobenavides:
+  display_name: Brujo Benavides
+  url: https://medium.com/feed/@elbrujohalcon
+  spider: rss
+
+bryancantrill:
+  display_name: Bryan Cantrill
+  url: http://dtrace.org/blogs/bmc/feed/
+  spider: rss
+
+carlosbecker:
+  display_name: Carlos Becker
+  url: https://carlosbecker.com/feed.xml
+  spider: rss
+
+chenhuijing:
+  display_name: Chen Hui Jing
+  url: https://www.chenhuijing.com/feed.xml
+  spider: rss
+
+chientran:
+  display_name: Chien Tran
+  url: http://thelazylog.com/rss/
+  spider: rss
+
+chinmayakr.patanaik:
+  display_name: Chinmaya Kr. Patanaik
+  url: http://chinmayapatanaik.com/atom.xml
+  spider: rss
+
+chrishager:
+  display_name: Chris Hager
+  url: https://www.metachris.com/atom.xml
+  spider: rss
+
+chriswellons:
+  display_name: Chris Wellons
+  url: http://nullprogram.com/feed/
+  spider: rss
+
+claymcleod:
+  display_name: Clay McLeod
+  url: http://blog.claymcleod.io/atom.xml
+  spider: rss
+
+cocoaismygirlfriend:
+  display_name: Cocoa Is My Girlfriend
+  url: http://www.cimgf.com/feed/
+  spider: rss
+
+codebetter:
+  display_name: Code Better
+  url: http://feeds.feedburner.com/CodeBetter
+  spider: rss
+
+codewithstyle!:
+  display_name: Code with style!
+  url: http://codewithstyle.info/feed/
+  spider: rss
+
+codrops:
+  display_name: Codrops
+  url: https://tympanus.net/codrops/rss
+  spider: rss
+
+dailyjs:
+  display_name: Daily JS
+  url: http://dailyjs.com/rss/
+  spider: rss
+
+dailytechvideo:
+  display_name: Daily Tech Video
+  url: http://dailytechvideo.com/feed/
+  spider: rss
+
+danluu:
+  display_name: Dan Luu
+  url: https://danluu.com/atom.xml
+  spider: rss
+
+danieldoubrovkine(db.):
+  display_name: Daniel Doubrovkine (dB.)
+  url: http://code.dblock.org/feed.xml
+  spider: rss
+
+dataradar.io:
+  display_name: DataRadar.io
+  url: https://www.dataradar.io/rss/
+  spider: rss
+
+daveatchley:
+  display_name: Dave Atchley
+  url: http://www.datchley.name/rss/
+  spider: rss
+
+davecheney:
+  display_name: Dave Cheney
+  url: https://dave.cheney.net/feed
+  spider: rss
+
+davidwalsh:
+  display_name: David Walsh
+  url: https://davidwalsh.name/feed/atom
+  spider: rss
+
+deanhume:
+  display_name: Dean Hume
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://deanhume.com.atom/
+  spider: rss
+
+deborahdigges:
+  display_name: Deborah Digges
+  url: http://deborah-digges.github.io/atom.xml
+  spider: rss
+
+dennisfelsing:
+  display_name: Dennis Felsing
+  url: https://hookrace.net/blog/feed/
+  spider: rss
+
+dennisyurichev:
+  display_name: Dennis Yurichev
+  url: https://yurichev.com/blog/rss.xml
+  spider: rss
+
+dereuromark:
+  display_name: Dereuromark
+  url: http://www.dereuromark.de/feed/
+  spider: rss
+
+discovermeteor:
+  display_name: Discover Meteor
+  url: https://www.discovermeteor.com/feed.xml
+  spider: rss
+
+dmitripavlutin:
+  display_name: Dmitri Pavlutin
+  url: https://rainsoft.io/rss/
+  spider: rss
+
+dotdev(.dev):
+  display_name: Dot Dev (.dev)
+  url: https://dotdev.co/feed
+  spider: rss
+
+dragangaic:
+  display_name: Dragan Gaic
+  url: http://www.gajotres.net/feed/
+  spider: rss
+
+drewdevault:
+  display_name: Drew DeVault
+  url: https://drewdevault.com/feed.xml
+  spider: rss
+
+ducode.org:
+  display_name: Ducode.org
+  url: https://ducode.org/feed
+  spider: rss
+
+edankwan:
+  display_name: Edan Kwan
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://blog.edankwan.com.atom/
+  spider: rss
+
+edgararoutiounian:
+  display_name: Edgar Aroutiounian
+  url: http://hyegar.com/atom.xml
+  spider: rss
+
+elegantcode:
+  display_name: Elegant Code
+  url: https://elegantcode.com/feed/
+  spider: rss
+
+elibendersky:
+  display_name: Eli Bendersky
+  url: http://eli.thegreenplace.net/feeds/all.atom.xml
+  spider: rss
+
+ericelliot:
+  display_name: Eric Elliot
+  url: https://medium.com/feed/javascript-scene
+  spider: rss
+
+ericlippert:
+  display_name: Eric Lippert
+  url: https://ericlippert.com/feed/
+  spider: rss
+
+evandempsey:
+  display_name: Evan Dempsey
+  url: https://www.smallsurething.com/feed/
+  spider: rss
+
+evanhahn:
+  display_name: Evan Hahn
+  url: https://evanhahn.com/feed.xml
+  spider: rss
+
+evanjones:
+  display_name: Evan Jones
+  url: http://www.evanjones.ca/index.rss
+  spider: rss
+
+evanmiller:
+  display_name: Evan Miller
+  url: http://www.evanmiller.org/news.xml
+  spider: rss
+
+evantahler:
+  display_name: Evan Tahler
+  url: https://blog.evantahler.com/feed
+  spider: rss
+
+fabriziobranca:
+  display_name: Fabrizio Branca
+  url: http://fbrnc.net/blog.atom
+  spider: rss
+
+federicocargnelutti:
+  display_name: Federico Cargnelutti
+  url: https://blog.fedecarg.com/feed/
+  spider: rss
+
+federicotomassetti:
+  display_name: Federico Tomassetti
+  url: https://tomassetti.me/feed/
+  spider: rss
+
+filippovalsorda:
+  display_name: Filippo Valsorda
+  url: https://blog.filippo.io/rss/
+  spider: rss
+
+freekvanderherten:
+  display_name: Freek Van der Herten
+  url: https://murze.be/feed/
+  spider: rss
+
+glebbahmutov:
+  display_name: Gleb Bahmutov
+  url: https://glebbahmutov.com/blog/atom.xml
+  spider: rss
+
+grahamking:
+  display_name: Graham King
+  url: http://www.darkcoding.net/feed/
+  spider: rss
+
+grzegorzgajos:
+  display_name: Grzegorz Gajos
+  url: http://ggajos.com/rss.xml
+  spider: rss
+
+guidovanrossum:
+  display_name: Guido van Rossum
+  url: http://neopythonic.blogspot.com/feeds/posts/default
+  spider: rss
+
+guilhermerodrigues:
+  display_name: Guilherme Rodrigues
+  url: https://firstdoit.com/feed
+  spider: rss
+
+highscalability:
+  display_name: High Scalability
+  url: http://feeds.feedburner.com/HighScalability
+  spider: rss
+
+huonwilson:
+  display_name: Huon Wilson
+  url: http://huonw.github.io/blog/atom.xml
+  spider: rss
+
+hypriot:
+  display_name: Hypriot
+  url: https://blog.hypriot.com/index.xml
+  spider: rss
+
+ianhummel:
+  display_name: Ian Hummel
+  url: https://themodernlife.github.io/feed.xml
+  spider: rss
+
+iansommerville:
+  display_name: Ian Sommerville
+  url: http://iansommerville.com/systems-software-and-technology/feed/
+  spider: rss
+
+idontgetoutmuch'sweblog:
+  display_name: Idontgetoutmuch's Weblog
+  url: https://idontgetoutmuch.wordpress.com/feed/
+  spider: rss
+
+ievgenkuzminov:
+  display_name: Ievgen Kuzminov
+  url: http://stdout.in/en/cat/all.rss
+  spider: rss
+
+ilijaeftimov:
+  display_name: Ilija Eftimov
+  url: http://ieftimov.com/feed.xml
+  spider: rss
+
+ilyagrigorik:
+  display_name: Ilya Grigorik
+  url: https://www.igvita.com/feed/
+  spider: rss
+
+ivanursul:
+  display_name: Ivan Ursul
+  url: https://ivanursul.com/rss/
+  spider: rss
+
+jacopotarantino:
+  display_name: Jacopo Tarantino
+  url: https://jack.ofspades.com/rss/index.html
+  spider: rss
+
+jakewharton:
+  display_name: Jake Wharton
+  url: http://jakewharton.com/feed.xml
+  spider: rss
+
+jakeyesbeck:
+  display_name: Jake Yesbeck
+  url: http://jakeyesbeck.com/atom.xml
+  spider: rss
+
+jameshague:
+  display_name: James Hague
+  url: http://prog21.dadgum.com/atom.xml
+  spider: rss
+
+jameslong:
+  display_name: James Long
+  url: http://feedpress.me/jlongster
+  spider: rss
+
+jamisbuck:
+  display_name: Jamis Buck
+  url: http://feeds.feedburner.com/buckblog
+  spider: rss
+
+jayfields:
+  display_name: Jay Fields
+  url: http://blog.jayfields.com/feeds/posts/default
+  spider: rss
+
+jeffatwood:
+  display_name: Jeff Atwood
+  url: https://feeds.feedburner.com/codinghorror
+  spider: rss
+
+jeffpreshing:
+  display_name: Jeff Preshing
+  url: http://preshing.com/feed
+  spider: rss
+
+jeremykun:
+  display_name: Jeremy Kun
+  url: https://jeremykun.com/feed/
+  spider: rss
+
+jerrygamblin:
+  display_name: Jerry Gamblin
+  url: http://jerrygamblin.com/feed/
+  spider: rss
+
+jessiefrazelle:
+  display_name: Jessie Frazelle
+  url: https://blog.jessfraz.com/index.xml
+  spider: rss
+
+jesuscastello:
+  display_name: Jesus Castello
+  url: http://www.blackbytes.info/rss
+  spider: rss
+
+joearmstrong:
+  display_name: Joe Armstrong
+  url: http://joearms.github.io/feed
+  spider: rss
+
+joelspolsky:
+  display_name: Joel Spolsky
+  url: https://www.joelonsoftware.com/feed/
+  spider: rss
+
+johnresig:
+  display_name: John Resig
+  url: http://feeds.feedburner.com/JohnResig
+  spider: rss
+
+johnwittenauer:
+  display_name: John Wittenauer
+  url: http://www.johnwittenauer.net/rss/
+  spider: rss
+
+jonskeet:
+  display_name: Jon Skeet
+  url: https://codeblog.jonskeet.uk/feed/
+  spider: rss
+
+jonathandekhtiar:
+  display_name: Jonathan Dekhtiar
+  url: https://www.born2data.com/feed_atom.xml
+  spider: rss
+
+jonathansnook:
+  display_name: Jonathan Snook
+  url: https://snook.ca/jonathan/index.rdf
+  spider: rss
+
+joshhaberman:
+  display_name: Josh Haberman
+  url: http://blog.reverberate.org/feed.xml
+  spider: rss
+
+joshsherman:
+  display_name: Josh Sherman
+  url: https://joshtronic.com/atom.xml
+  spider: rss
+
+juantreminio:
+  display_name: Juan Treminio
+  url: https://jtreminio.com/atom.xml
+  spider: rss
+
+juliaevans:
+  display_name: Julia Evans
+  url: https://jvns.ca/atom.xml
+  spider: rss
+
+justinweiss:
+  display_name: Justin Weiss
+  url: http://www.justinweiss.com/atom.xml
+  spider: rss
+
+juristrumpflohner:
+  display_name: Juri Strumpflohner
+  url: https://juristr.com/blog/atom.xml
+  spider: rss
+
+k.harrison:
+  display_name: K. Harrison
+  url: http://useyourloaf.com/blog/rss.xml
+  spider: rss
+
+kevinburke:
+  display_name: Kevin Burke
+  url: https://kev.inburke.com/feed/
+  spider: rss
+
+kylekingsbury:
+  display_name: Kyle Kingsbury
+  url: https://aphyr.com/posts.atom
+  spider: rss
+
+lambdatheultimate:
+  display_name: Lambda the Ultimate
+  url: http://lambda-the-ultimate.org/rss.xml
+  spider: rss
+
+larryland:
+  display_name: Larry Land
+  url: https://lg.io/feed.xml
+  spider: rss
+
+leaverou:
+  display_name: Lea Verou
+  url: http://lea.verou.me/feed/
+  spider: rss
+
+lernerconsultingblog:
+  display_name: Lerner Consulting Blog
+  url: http://blog.lerner.co.il/feed/
+  spider: rss
+
+lifepluslinux:
+  display_name: Life Plus Linux
+  url: http://lifepluslinux.blogspot.com/feeds/posts/default
+  spider: rss
+
+lucianomammino:
+  display_name: Luciano Mammino
+  url: http://loige.co/rss/
+  spider: rss
+
+marcplano-lesay:
+  display_name: Marc Plano-Lesay
+  url: https://enoent.fr/atom.xml
+  spider: rss
+
+marcopivetta:
+  display_name: Marco Pivetta
+  url: https://ocramius.github.io/atom.xml
+  spider: rss
+
+marekmajkowski:
+  display_name: Marek Majkowski
+  url: https://idea.popcount.org/rss.xml
+  spider: rss
+
+martinfowler:
+  display_name: Martin Fowler
+  url: https://martinfowler.com/feed.atom
+  spider: rss
+
+maryrosecook:
+  display_name: Mary Rose Cook
+  url: https://maryrosecook.com/blog/feed.xml
+  spider: rss
+
+mattaimonetti:
+  display_name: Matt Aimonetti
+  url: https://matt.aimonetti.net/atom.xml
+  spider: rss
+
+mattcutts:
+  display_name: Matt Cutts
+  url: https://www.mattcutts.com/blog/feed/
+  spider: rss
+
+mattmight:
+  display_name: Matt Might
+  url: http://matt.might.net/articles/feed.rss
+  spider: rss
+
+mattwarren:
+  display_name: Matt Warren
+  url: http://mattwarren.org/atom.xml
+  spider: rss
+
+michaelcrump:
+  display_name: Michael Crump
+  url: http://michaelcrump.net/feed.xml
+  spider: rss
+
+michaelherman:
+  display_name: Michael Herman
+  url: http://mherman.org/atom.xml
+  spider: rss
+
+miguelquinones:
+  display_name: Miguel Quinones
+  url: https://www.miqu.me/atom.xml
+  spider: rss
+
+mikeash:
+  display_name: Mike Ash
+  url: http://www.mikeash.com/pyblog/rss.py
+  spider: rss
+
+mikefogus:
+  display_name: Mike Fogus
+  url: http://blog.fogus.me/feed/
+  spider: rss
+
+miloszgalazka:
+  display_name: Milosz Galazka
+  url: https://blog.sleeplessbeastie.eu/feed.xml
+  spider: rss
+
+mirocupak:
+  display_name: Miro Cupak
+  url: https://mirocupak.com/feed.xml
+  spider: rss
+
+monicadinculescu:
+  display_name: Monica Dinculescu
+  url: https://meowni.ca/atom.xml
+  spider: rss
+
+mykhailokozik:
+  display_name: Mykhailo Kozik
+  url: http://feeds.feedburner.com/mishadoff
+  spider: rss
+
+natashamurashev:
+  display_name: Natasha Murashev
+  url: https://natashatherobot.com/rss
+  spider: rss
+
+nelsonelhage:
+  display_name: Nelson Elhage
+  url: https://blog.nelhage.com/atom.xml
+  spider: rss
+
+nicraboy:
+  display_name: Nic Raboy
+  url: https://www.thepolyglotdeveloper.com/feed/
+  spider: rss
+
+nickcraver:
+  display_name: Nick Craver
+  url: https://nickcraver.com/blog/feed.xml
+  spider: rss
+
+nickdesaulniers:
+  display_name: Nick Desaulniers
+  url: https://nickdesaulniers.github.io/atom.xml
+  spider: rss
+
+nickgalbreath:
+  display_name: Nick Galbreath
+  url: http://navigationshilfe.t-online.de/dnserror?url=http://www.client9.com.atom/
+  spider: rss
+
+nicolasliochon:
+  display_name: Nicolas Liochon
+  url: http://blog.thislongrun.com/feeds/posts/default
+  spider: rss
+
+nikolaynemshilov:
+  display_name: Nikolay Nemshilov
+  url: http://nikolay.rocks/atom.xml
+  spider: rss
+
+nshipster:
+  display_name: NSHipster
+  url: http://nshipster.com/feed.xml
+  spider: rss
+
+nateberkopec:
+  display_name: Nate Berkopec
+  url: https://www.nateberkopec.com/feed.xml
+  spider: rss
+
+olebegemann:
+  display_name: Ole Begemann
+  url: https://oleb.net/blog/atom.xml
+  spider: rss
+
+pamelafox:
+  display_name: Pamela Fox
+  url: http://blog.pamelafox.org/feeds/posts/default
+  spider: rss
+
+patshaughnessy:
+  display_name: Pat Shaughnessy
+  url: http://feeds2.feedburner.com/patshaughnessy
+  spider: rss
+
+paulirish:
+  display_name: Paul Irish
+  url: https://feeds.feedburner.com/paul-irish
+  spider: rss
+
+paullewis:
+  display_name: Paul Lewis
+  url: https://aerotwist.com/blog/feed/
+  spider: rss
+
+peternorvig:
+  display_name: Peter Norvig
+  url: http://www.norvig.com/rss-feed.xml
+  spider: rss
+
+petersteinberger:
+  display_name: Peter Steinberger
+  url: http://petersteinberger.com/atom.xml
+  spider: rss
+
+peteriskrumins:
+  display_name: Peteris Krumins
+  url: http://www.catonmat.net/feed/
+  spider: rss
+
+petrmitrichev:
+  display_name: Petr Mitrichev
+  url: http://petr-mitrichev.blogspot.com/feeds/posts/default
+  spider: rss
+
+philipwalton:
+  display_name: Philip Walton
+  url: https://philipwalton.com/feed
+  spider: rss
+
+philippoppermann:
+  display_name: Philipp Oppermann
+  url: http://os.phil-opp.com/atom.xml
+  spider: rss
+
+piotrpasich:
+  display_name: Piotr Pasich
+  url: http://piotrpasich.com/feed/
+  spider: rss
+
+piotrwittchen:
+  display_name: Piotr Wittchen
+  url: http://blog.wittchen.biz.pl/feed/
+  spider: rss
+
+rachelkroll:
+  display_name: Rachel Kroll
+  url: https://rachelbythebay.com/w/atom.xml
+  spider: rss
+
+radekpazdera:
+  display_name: Radek Pazdera
+  url: http://radek.io/rss.xml
+  spider: rss
+
+ramonfried:
+  display_name: Ramon Fried
+  url: https://nativeguru.wordpress.com/feed/
+  spider: rss
+
+raywenderlich:
+  display_name: Ray Wenderlich
+  url: https://www.raywenderlich.com/rss
+  spider: rss
+
+raymondchen:
+  display_name: Raymond Chen
+  url: https://blogs.msdn.microsoft.com/oldnewthing/feed
+  spider: rss
+
+raymondhettinger:
+  display_name: Raymond Hettinger
+  url: https://rhettinger.wordpress.com/feed/
+  spider: rss
+
+reactjsnews:
+  display_name: ReactJS News
+  url: https://reactjsnews.com/feed.xml
+  spider: rss
+
+realpython:
+  display_name: Real Python
+  url: https://realpython.com/atom.xml
+  spider: rss
+
+reginaldbraithwaite:
+  display_name: Reginald Braithwaite
+  url: http://raganwald.com/atom.xml
+  spider: rss
+
+regulargeek:
+  display_name: Regular Geek
+  url: http://feeds.regulargeek.com/RegularGeek
+  spider: rss
+
+roballen:
+  display_name: Rob Allen
+  url: https://akrabat.com/feed/
+  spider: rss
+
+robertc.martin:
+  display_name: Robert C. Martin
+  url: http://blog.cleancoder.com/atom.xml
+  spider: rss
+
+robinward:
+  display_name: Robin Ward
+  url: https://eviltrout.com/feed.xml
+  spider: rss
+
+robinwilson:
+  display_name: Robin Wilson
+  url: http://blog.rtwilson.com/feed/
+  spider: rss
+
+rudyhuyn:
+  display_name: Rudy Huyn
+  url: http://www.rudyhuyn.com/blog/feed/
+  spider: rss
+
+ruslanspivak:
+  display_name: Ruslan Spivak
+  url: https://ruslanspivak.com/feeds/all.atom.xml
+  spider: rss
+
+samsaffron:
+  display_name: Sam Saffron
+  url: http://samsaffron.com/posts.rss
+  spider: rss
+
+scotthanselman:
+  display_name: Scott Hanselman
+  url: http://feeds.hanselman.com/ScottHanselman
+  spider: rss
+
+sebastianbarthel:
+  display_name: Sebastian Barthel
+  url: http://journerist.com/rss/
+  spider: rss
+
+simonreimler:
+  display_name: Simon Reimler
+  url: https://devdactic.com/feed/
+  spider: rss
+
+srinivastamada:
+  display_name: Srinivas Tamada
+  url: http://www.9lessons.info/feeds/posts/default
+  spider: rss
+
+stackabuse:
+  display_name: Stack Abuse
+  url: http://stackabuse.com/rss/
+  spider: rss
+
+stefanparker:
+  display_name: Stefan Parker
+  url: http://codebeforethehorse.tumblr.com/rss
+  spider: rss
+
+stephencolebourne:
+  display_name: Stephen Colebourne
+  url: http://blog.joda.org/feeds/posts/default
+  spider: rss
+
+steveyegge:
+  display_name: Steve Yegge
+  url: https://steve-yegge.blogspot.com/feeds/posts/default
+  spider: rss
+
+sudhagar:
+  display_name: Sudhagar
+  url: http://sudhagar.com/feed.xml
+  spider: rss
+
+swizecteller:
+  display_name: Swizec Teller
+  url: https://swizec.com/blog/feed
+  spider: rss
+
+teroparviainen:
+  display_name: Tero Parviainen
+  url: http://teropa.info/blog/feed.xml
+  spider: rss
+
+thatthinginswift:
+  display_name: That Thing In Swift
+  url: https://thatthinginswift.com/index.xml
+  spider: rss
+
+thedailywtf:
+  display_name: The Daily WTF
+  url: http://thedailywtf.com/rss
+  spider: rss
+
+thomasyoung:
+  display_name: Thomas Young
+  url: http://upcoder.com/feed
+  spider: rss
+
+tikhonjelvis:
+  display_name: Tikhon Jelvis
+  url: http://jelv.is/blog/rss.xml
+  spider: rss
+
+t.j.maher:
+  display_name: T.J. Maher
+  url: http://www.tjmaher.com/feeds/posts/default
+  spider: rss
+
+unakravets:
+  display_name: Una Kravets
+  url: https://una.im/feed.xml
+  spider: rss
+
+undocumentedmatlab:
+  display_name: Undocumented Matlab
+  url: http://undocumentedmatlab.com/feed
+  spider: rss
+
+vanillajava:
+  display_name: Vanilla Java
+  url: http://vanillajava.blogspot.com/feeds/posts/default
+  spider: rss
+
+vladmihalcea:
+  display_name: Vlad Mihalcea
+  url: https://vladmihalcea.com/feed/
+  spider: rss
+
+wilfredhughes:
+  display_name: Wilfred Hughes
+  url: http://www.wilfred.me.uk/rss.xml
+  spider: rss
+
+williamkennedy:
+  display_name: William Kennedy
+  url: https://www.goinggo.net/index.xml
+  spider: rss
+
+yegorbugayenko:
+  display_name: Yegor Bugayenko
+  url: http://www.yegor256.com/rss.xml
+  spider: rss
+
+yifanlu:
+  display_name: Yifan Lu
+  url: http://yifan.lu/feed.xml
+  spider: rss
+
+zachholman:
+  display_name: Zach Holman
+  url: https://zachholman.com/atom.xml
+  spider: rss
+
+zolmeister:
+  display_name: Zolmeister
+  url: https://zolmeister.com/feeds/posts/default
+  spider: rss
+
+android:
+  display_name: Android
+  url: https://android-developers.googleblog.com/feeds/posts/default
+  spider: rss
+
+atom.io:
+  display_name: Atom.io
+  url: http://blog.atom.io/feed.xml
+  spider: rss
+
+crystal:
+  display_name: Crystal
+  url: https://crystal-lang.org/feed.xml
+  spider: rss
+
+go:
+  display_name: Go
+  url: https://blog.golang.org/feed.atom
+  spider: rss
+
+ipfs:
+  display_name: IPFS
+  url: https://ipfs.io/blog/rss.xml
+  spider: rss
+
+klipse:
+  display_name: Klipse
+  url: http://blog.klipse.tech//feed.xml
+  spider: rss
+
+laravel:
+  display_name: Laravel
+  url: https://feed.laravel-news.com/
+  spider: rss
+
+microsoftedge:
+  display_name: Microsoft Edge
+  url: https://blogs.windows.com/feed
+  spider: rss
+
+.net:
+  display_name: .NET
+  url: https://blogs.msdn.microsoft.com/dotnet/feed/
+  spider: rss
+
+react:
+  display_name: React
+  url: https://facebook.github.io/react/feed.xml
+  spider: rss
+
+rocksdb:
+  display_name: RocksDB
+  url: http://rocksdb.org/feed.xml
+  spider: rss
+
+rust:
+  display_name: Rust
+  url: https://blog.rust-lang.org/feed.xml
+  spider: rss
+
+swift:
+  display_name: Swift
+  url: https://developer.apple.com/swift/blog/news.rss
+  spider: rss
+
+vertabelo:
+  display_name: Vertabelo
+  url: http://www.vertabelo.com/_rss/blog.xml
   spider: rss

@@ -6,6 +6,7 @@ import hashlib
 
 from util import get_db_name
 
+
 class MongoDBPipeline(object):
 
     def __init__(self, mongo_uri, mongo_db):

@@ -2,7 +2,13 @@
 
 BOT_NAME = 'techsscraper'
 
-MONGO_DATABASE = 'blogs'
+LOG_LEVEL = 'INFO'
+
+CONCURRENT_SPIDERS = 16
+CLOSESPIDER_TIMEOUT = 120
+RETRY_TIMES = 1
+DNS_TIMEOUT = 10
+HTTPCACHE_ENABLED = True
 
 SPIDER_MODULES = ['techsscraper.spiders']
 NEWSPIDER_MODULE = 'techsscraper.spiders'

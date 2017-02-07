@@ -358,11 +358,6 @@ datafox:
   url: http://eng.datafox.co/feed.xml
   spider: rss
 
-datarank:
-  display_name: DataRank
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://engineering.datarank.com.atom/
-  spider: rss
-
 deferpanic:
   display_name: DeferPanic
   url: https://deferpanic.com/blog/index.xml
@@ -588,11 +583,6 @@ grofers:
   url: https://lambda.grofers.com/rss/
   spider: rss
 
-grouper:
-  display_name: Grouper
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://eng.joingrouper.com.atom/
-  spider: rss
-
 groupon:
   display_name: Groupon
   url: https://engineering.groupon.com/feed/
@@ -640,7 +630,7 @@ hireart:
 
 holidayextras:
   display_name: Holiday Extras
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://hungrygeek.holidayextras.co.uk.atom/
+  url: http://tech.holidayextras.co.uk/feed.xml
   spider: rss
 
 homeaway:
@@ -760,7 +750,7 @@ jollygoodcode:
 
 justeat:
   display_name: Just Eat
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://tech.just-eat.com.atom/
+  url: https://tech.just-eat.com/feed/atom/
   spider: rss
 
 jettechnology:
@@ -1153,11 +1143,6 @@ risingstack:
   url: http://blog.risingstack.com/rss/
   spider: rss
 
-roberteldersoftware:
-  display_name: Robert Elder Software
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://blog.robertelder.org.atom/
-  spider: rss
-
 rosehosting:
   display_name: RoseHosting
   url: https://www.rosehosting.com/blog/feed/
@@ -1548,11 +1533,6 @@ wongatechnology:
   url: http://wongatech.github.io/feed.xml
   spider: rss
 
-wso2:
-  display_name: WSO2
-  url: http://wso2.com/node/37573/atom/feed
-  spider: rss
-
 xing:
   display_name: XING
   url: https://devblog.xing.com/feed/
@@ -1753,11 +1733,6 @@ billthelizard:
   url: http://www.billthelizard.com/feeds/posts/default
   spider: rss
 
-blakeerickson:
-  display_name: Blake Erickson
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://blakeerickson.com.atom/
-  spider: rss
-
 blundell'sandroidtutorials:
   display_name: Blundell's Android Tutorials
   url: http://blog.blundellapps.co.uk/feed/
@@ -1883,11 +1858,6 @@ davidwalsh:
   url: https://davidwalsh.name/feed/atom
   spider: rss
 
-deanhume:
-  display_name: Dean Hume
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://deanhume.com.atom/
-  spider: rss
-
 deborahdigges:
   display_name: Deborah Digges
   url: http://deborah-digges.github.io/atom.xml
@@ -1936,11 +1906,6 @@ drewdevault:
 ducode.org:
   display_name: Ducode.org
   url: https://ducode.org/feed
-  spider: rss
-
-edankwan:
-  display_name: Edan Kwan
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://blog.edankwan.com.atom/
   spider: rss
 
 edgararoutiounian:
@@ -2071,11 +2036,6 @@ iansommerville:
 idontgetoutmuch'sweblog:
   display_name: Idontgetoutmuch's Weblog
   url: https://idontgetoutmuch.wordpress.com/feed/
-  spider: rss
-
-ievgenkuzminov:
-  display_name: Ievgen Kuzminov
-  url: http://stdout.in/en/cat/all.rss
   spider: rss
 
 ilijaeftimov:
@@ -2383,11 +2343,6 @@ nickdesaulniers:
   url: https://nickdesaulniers.github.io/atom.xml
   spider: rss
 
-nickgalbreath:
-  display_name: Nick Galbreath
-  url: http://navigationshilfe.t-online.de/dnserror?url=http://www.client9.com.atom/
-  spider: rss
-
 nicolasliochon:
   display_name: Nicolas Liochon
   url: http://blog.thislongrun.com/feeds/posts/default
@@ -2681,11 +2636,6 @@ yifanlu:
 zachholman:
   display_name: Zach Holman
   url: https://zachholman.com/atom.xml
-  spider: rss
-
-zolmeister:
-  display_name: Zolmeister
-  url: https://zolmeister.com/feeds/posts/default
   spider: rss
 
 android:

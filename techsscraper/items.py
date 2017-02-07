@@ -13,7 +13,7 @@ class BlogItem(scrapy.Item):
     title = scrapy.Field(input_processor=MapCompose(clean),
                          output_processor=TakeFirst())
 
-    url = scrapy.Field(input_processor=MapCompose(clean, check_url),
+    url = scrapy.Field(input_processor=MapCompose(clean),
                        output_processor=Join(''))
 
     pub_date = scrapy.Field(input_processor=MapCompose(clean, parse_date),

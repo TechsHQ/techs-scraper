@@ -8,6 +8,7 @@ from twisted.internet.error import TimeoutError, TCPTimedOutError
 
 from items import BlogItem
 from util import *
+from processors import clean
 
 
 class RSSSpider(scrapy.Spider):
@@ -18,6 +19,7 @@ class RSSSpider(scrapy.Spider):
         self.publisher = kw.get('blog_name')
         self.publisher_display_name = kw.get('display_name')
         self.url = sanatize_url(kw.get('url'))
+        self.domain = get_domain(self.url)
 
     def start_requests(self):
         self.logger.info('Start scraping %s (%s)', self.publisher_display_name, self.url)
@@ -37,8 +39,9 @@ class RSSSpider(scrapy.Spider):
 
             if 'url' not in blog_item:
                 self.logger.debug('URL not found in blog %s (%s)', self.publisher_display_name, self.url)
-                blog_item['url'] = ''.join(item.xpath('text()').extract())
+                blog_item['url'] = clean(''.join(item.xpath('text()').extract()))
 
+            blog_item['url'] = fix_url(blog_item['url'], self.domain)
             yield blog_item
 
     def error(self, failure):

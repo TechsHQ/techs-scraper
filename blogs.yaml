@@ -1233,11 +1233,6 @@ slack:
   url: https://slack.engineering/feed
   spider: rss
 
-slideshare:
-  display_name: SlideShare
-  url: https://engineering.linkedin.com/blog.rss
-  spider: rss
-
 smallimprovements:
   display_name: Small Improvements
   url: https://tech.small-improvements.com/feed/

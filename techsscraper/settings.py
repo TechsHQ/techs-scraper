@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'techsscraper.spiders'
 USER_AGENT = 'techs-scraper (+https://github.com/techsHQ/techs-scraper)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False  # We can disobey robots.txt, because we are scrapping RSS feeds
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
